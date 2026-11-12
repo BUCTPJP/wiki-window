@@ -38,9 +38,14 @@ Wiki Window is a client-side Forge mod for Minecraft Java Edition 1.20.1. Search
 - Recipes come from the current world and cover ordinary shaped and shapeless crafting only. Matching depends on the current game language; smelting, smithing and special recipes are not supported.
 - The mod does not include an input method. Paste text if needed. With caramelChat installed, use the Search button and reserve Enter for the IME; Chinese composition has not yet been fully tested.
 
+## 构建 / Build
+
+使用 Java 17，在项目目录运行 `./gradlew.bat build`（Windows）或 `./gradlew build`（Linux / macOS）。首次构建需要联网。
+
+Use Java 17 and run `./gradlew.bat build` on Windows or `./gradlew build` on Linux / macOS. The first build requires network access.
+
 ## Credits / 版权说明
 
 Wiki content is retrieved from [中文 Minecraft Wiki](https://zh.minecraft.wiki/). Individual content and images may have different attribution and licensing requirements. The mod is independent and is not affiliated with the Minecraft Wiki, Mojang Studios, or Microsoft. Wiki content attribution and licensing requirements still need verification before distribution.
 
-Author / 作者: BUCTPJP. Mod license / 模组许可: All Rights Reserved. The mod was substantially developed with AI assistance. Source code is not currently published.
-
+Author / 作者: BUCTPJP. Mod license / 模组许可: All Rights Reserved. The mod was substantially developed with AI assistance. Source code is available for viewing; All Rights Reserved applies to the project code unless otherwise specified.
